@@ -3,7 +3,7 @@ int main() {
     int x;
     printf("Enter number of days after deadline: ");
     scanf("%d",&x);
-    if(x<=5) {
+    if(x>0 && x<=5) {
         printf("The fine is 1 rupee");
     }
     if(x>5 && x<=10) {
